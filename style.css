@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #ef5f9a;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 600;
+  height: 30px;
+  line-height: 28px;
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #9874f3;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  color: #000000;
+  font-size: 13px;
+  line-height: 1px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+a.footer {
+  color: #9874f3;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+a.footer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.weather-app {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid #9874f3;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #9874f3;
+}
+
+.weather-app-wrapper {
+  max-width: 650px;
+  margin: 30px auto;
+}
+
+.fa-solid {
+  font-size: 18px;
+}
+
+.fa-solid:hover {
+  font-size: 22px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 18px;
+  top: -32px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+}
+
+.weather-forecast-temperatures {
+  font-size: 15px;
+}
+
+.weather-forecast-temperature-min {
+  font-size: 15px;
+  color: black;
+  opacity: 0.5;
+}
+
+#form-input {
+  border: 2px solid #9874f3;
+  box-shadow: 3px 3px 10px #9874f3;
+}
+
+#search-button,
+#button-current-location {
+  color: #8d65f2;
+  font-weight: 600;
+  line-height: 28px;
+  border: 2px solid #9874f3;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px #9874f3;
+  background: rgb(119, 211, 208);
+}
+
+#search-button:hover,
+#button-current-location:hover {
+  transition: all 200ms ease-in-out;
+  background-color: rgb(99, 191, 188);
+}
+#description {
+  font-weight: 600;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+  color: #ef5f9a;
+}
+#fahrenheit-link:hover {
+  text-decoration: none;
+  color: #9874f3;
+  font-size: 20px;
+}
+
+#celsius-link {
+  text-decoration: none;
+  color: #ef5f9a;
+}
+
+#celsius-link:hover {
+  text-decoration: none;
+  color: #9874f3;
+  font-size: 20px;
+}
+
+.weather-temperature .active {
+  cursor: default;
+}
